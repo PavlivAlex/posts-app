@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+## Posts App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In Posts application you can see, create, update, delete posts!
+Also you can see and add comments to posts!
+Design is very simple but all necessary functional for this features is exsit
 
-## Available Scripts
+We don't use Redux and thunks because application is very simple
+This big and heavy library and global states it's unecessary here
 
-In the project directory, you can run:
+## How to use
 
-### `npm start`
+In main page we have link to posts page
+In post page we see all post
+To create post click button 'Create post' then you must fill the form in modal window
+In each post in right top corner are setting buttons(All information, Update post, Delete post)
+In All information about post you can see post, comments to this post and have opportunity to create new comments
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Stack
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# main
 
-### `npm test`
+React v18
+react-router v6
+TypeScript
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# styles
 
-### `npm run build`
+Ant Design
+styled-components
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# froms/validation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Formik
+Yup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# code styles
 
-### `npm run eject`
+ESLint
+Prettier
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# api
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Axios
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# data
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+lodash
